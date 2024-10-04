@@ -43,7 +43,9 @@ DJANGO_APPS = [
     'django.contrib.staticfiles',
 ]
 
-LOCAL_APPS = []
+LOCAL_APPS = [
+    'authentication.apps.AuthenticationConfig',
+]
 
 THIRD_PARTY_APPS = []
 
